@@ -3,3 +3,6 @@
  
 # Plugin: Webcam Easy
  https://www.npmjs.com/package/webcam-easy
+ 
+# Demo
+  https://www.semihkizilboga.com.tr/webcam/
