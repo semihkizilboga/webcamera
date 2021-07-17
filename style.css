@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: #0e2439;
+}
+a{
+  text-decoration:none;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main h3{
+  color:#fff;
+  margin-top:2rem;
+  font-size:25px;
+  margin-bottom:0.5rem;
+}
+
+.button{
+  display:inline-block;
+}
+
+.start{
+  border:none;
+  border-radius:0.5rem;
+  padding:0.7rem;
+  background:#1f364d;
+  color:White;
+  cursor:pointer;
+  font-size:17px;
+}
+.stop{
+  border:none;
+  border-radius:0.5rem;
+  padding:0.7rem;
+  background:#1f364d;
+  color:White;
+  cursor:pointer;
+  font-size:17px;
+}
+
+.download{
+  margin:20px;
+
+}
+.download a{
+  background-image: linear-gradient(to right,#e052a0,#f15c41);
+  cursor: pointer;
+  border-radius:0.5rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  height: 36px;
+  line-height: 36px;
+  margin-left: auto;
+  padding: 10px 10px;
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.webcam {
+  display:inline-block;
+}
+.webcam .video{
+  border-radius: 4px;
+  border: 3px solid #1f364d;
+  box-shadow: 0 0 28px rgb(0 0 0 / 7%);
+  display:inline-block;
+  margin-right:1rem;
+}
+.webcam .canvas{
+  border-radius: 4px;
+  border: 3px solid #1f364d;
+  box-shadow: 0 0 28px rgb(0 0 0 / 7%);
+  display:inline-block;
+}
+
+footer{
+  padding-top:5rem;
+  display:flex;
+  justify-content: center;
+}
+
+footer .instagram{
+  margin:7px;
+  background-image: linear-gradient(to right,#e052a0,#f15c41);
+  border: none;
+  color : #fff;
+  border-radius:0.5rem;
+  padding:0.5rem;
+  cursor: pointer;
+
+}
+footer .linkedin{
+  margin:7px;
+  background-image: linear-gradient(to right,#0095ff,#004fff);
+  border: none;
+  color : #fff;
+  border-radius:0.5rem;
+  padding:0.5rem;
+  cursor: pointer;
+
+}
+footer .github{
+  margin:7px;
+  background-image: linear-gradient(to right,#696969,#514b4a);
+  border: none;
+  color : #fff;
+  border-radius:0.5rem;
+  padding:0.5rem;
+  cursor: pointer;
+
+}
